@@ -1,3 +1,8 @@
+source("/Users/ScottMac/treeBASE/R/treebase.R")
+source("/Users/ScottMac/rbhl/R/namesearch.R")
+source("/Users/ScottMac/rplos/R/searchplos.R")
+source("/Users/ScottMac/rgbif/R/taxoncount.R")
+
 # ospkgs.R
 
 ospkgs <- function(species = NA)
