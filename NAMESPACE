@@ -1,0 +1,5 @@
+export(rosources)
+import(RCurl)
+import(RJSONIO)
+import(ggplot2)
+import(stringr)
