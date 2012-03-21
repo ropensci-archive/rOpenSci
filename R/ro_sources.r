@@ -1,18 +1,16 @@
-
-
 #'Package to list current ropensci sources 
 #'
 #'@param sources Reads data stored in data folder
 #'@param  verbose = TRUE Default is complete listing
 #'@keywords
 #'@seealso
-#'@return
+#'@return data frame
 #'@alias
 #'@export
 #'@examples \dontrun{
 #'
 #'}
-ros_sources <- function(sources='data/rosources.rda', verbose = TRUE, working = NULL) {
+ro_sources <- function(sources='data/rosources.rda', verbose = TRUE, working = NULL) {
 load(sources)	
 if(!is.null(working)) {
 	sources = subset(sources, working == TRUE)
