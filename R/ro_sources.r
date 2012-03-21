@@ -10,7 +10,7 @@
 #'@examples \dontrun{
 #'
 #'}
-ro_sources <- function(sources='data/rosources.rda', verbose = TRUE, working = NULL) {
+ro_sources <- function(sources='..data/rosources.rda', verbose = TRUE, working = NULL) {
 load(sources)	
 if(!is.null(working)) {
 	sources = subset(sources, working == TRUE)
